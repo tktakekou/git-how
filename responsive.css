@@ -1,0 +1,92 @@
+@media all and (max-width:1200px){
+    body:before{
+        background-position: right 0px top 0px;
+    }
+}
+
+@media all and (max-width:1000px){
+    .main-parent{
+        height:95vh;
+    }
+}
+
+@media all and (max-width:670px){
+    .header-inner{
+        width:80%;
+        height:65%;
+        position:absolute;
+    }
+    .header-top{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height:35%;
+        text-align: center;
+    }
+    
+    header .hh-narrow{
+        display:inline-block;
+        height:30%;
+        line-height:30%;
+        margin-top:7%;
+        margin-bottom:0%;
+        /*backgroundおかしい*/
+    }
+    header .h-2{
+        display: none;
+    }
+    
+    .header-list{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top:30px;
+        position:relative;
+        top:0%;
+    }
+    header a{
+        line-height: 10px;
+        padding-top:3%;
+        padding-bottom:3%;
+        font-size:15px;
+    }
+    .main-child{
+        width:80%;
+        font-size:12px;
+        padding-top:70px
+    }
+    .about-img{
+        width:60%;
+        height:auto;
+        background-color: brown;
+    }
+    .sentences{
+        width:85%;
+    }
+    .vision-img{
+        width:60%;
+        height:auto;
+    }
+    footer{
+        width:100%;
+        font-size:12px;
+
+    }
+    .footer-list{
+        text-align: center;
+        width:100%;
+        margin:0 2px 0;
+    }
+
+    
+}
+
+
+@media all and (max-width:360px){
+    header h1{
+        font-size:40px;
+    }
+    footer{
+        font-size:10px;    
+    }
+}
