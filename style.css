@@ -73,8 +73,7 @@ header a{
     padding-top:100px
 }
 .about-img{
-    height:400px;
-    width:300px;
+    height:300px;
     display:block;
     margin:0 auto;/*画像のセンタリング*/
     margin-top:5px;
